@@ -1,0 +1,54 @@
+.hero_block {
+  background-color: var(--background-hero);
+  height: 690px;
+}
+
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.hero_description {
+  width: 480px;
+}
+
+.hero_title {
+  font-size: 48px;
+  line-height: 1.16;
+  padding-bottom: 32px;
+}
+
+.hero_text {
+  padding-bottom: 14px;
+}
+
+.hero_btn {
+  width: 228px;
+  height: 56px;
+}
+
+.hero_company {
+  background-color: var(--background-company);
+  height: 120px;
+  padding-top: 20px;
+}
+
+.hero_company_list {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.26;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+
+.hero_company_item {
+  color: var(--text-description-lightcolor);
+  display: flex;
+  align-items: center;
+}
+
+.hero_company_item-img {
+  margin-right: 16px;
+}

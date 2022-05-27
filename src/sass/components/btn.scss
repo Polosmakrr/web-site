@@ -1,0 +1,41 @@
+.light_btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: var(--dark-blue);
+  background-color: var(--white-color);
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  :focus {
+    background-color: var(--dark-blue);
+    color: var(--white-color);
+  }
+}
+
+.dark_btn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--dark-blue);
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  :focus {
+    background-color: var(--white-color);
+    color: var(--dark-blue);
+  }
+}

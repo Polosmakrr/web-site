@@ -1,0 +1,38 @@
+.header_block {
+  background-color: var(--white-color);
+  height: 60px;
+}
+
+.nav_container {
+  font-size: 14px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+}
+
+.nav_item {
+  &:not(:last-child) {
+    padding-right: 50px;
+  }
+}
+
+.account_list {
+  display: flex;
+  align-items: center;
+}
+
+.account_item {
+  &:not(:last-child) {
+    padding-right: 25px;
+  }
+}
